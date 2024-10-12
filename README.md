@@ -16,16 +16,19 @@ To know more about the design choices, what time banking is, and the reason why 
 
 - [x] fork cdk & write project description
 - [x] write context.md
-- [ ] remove Lightning Network logic:
-  - [ ] cdk-lnbits
-  - [ ] cdk-lnd
-  - [ ] cdk-phoenixd
-  - [ ] cdk-strike
-  - [ ] ...
-- [ ] remove Bitcoin logic:
-  - [ ] multi-mint logic
-  - [ ] channel opening/closing
-  - [ ] ...
+- [x] remove Lightning Network logic:
+  - [x] cdk-lnbits
+  - [x] cdk-lnd
+  - [x] cdk-phoenixd
+  - [x] cdk-strike
+  - [x] cdk-cln
+  - [x] cdk-integration-tests
+  - [x] cdk-rexie
+  - [x] cdk-sqlite
+- [x] remove Bitcoin logic:
+- [x] LN invoice logic
+- [x] nostr logic
+- [x] removed alternative database options (chose redb)
 - [ ] replace 'sat' with 'time'
   - [ ] define 'time'
   - [ ] integrate logic to check real time and 'ecash 'time'
@@ -41,7 +44,7 @@ To know more about the design choices, what time banking is, and the reason why 
 - [ ] profit ?
 
 
-Design choices for project
+## Design choices for project
 
 - 100% offline use (no http/API)
 - should run on smartphones made after 2010 (ideally a PWA)
@@ -81,6 +84,16 @@ Design choices for project
 ## License
 
 Code is under the [MIT License](LICENSE)
+
+## Hackathon timeline 
+Timezone: GMT+2
+- 12 Oct 2024 - 10:57 - [Init commit ](https://github.com/0xg4tt0/eTIMEbank/commit/4dbffba344d1a2e2e41d63d61234069f4bbf64c9)
+- 12 Oct 2024 - 16:26 - [finished project description / context](https://github.com/0xg4tt0/eTIMEbank/commit/99625bdf569348f27058bf4c27e364b67022193c)
+- 12 Oct 2024 - 17:09 - [started 'trimming the fat' from crates and logic](https://github.com/0xg4tt0/eTIMEbank/commit/e960058780e15fa89661ab3c17c470da3fda8434)
+- 12 Oct 2024 - 17:54 - the rust code compiled without errors!
+- 12 Oct 2024 - 18:03 - [merged thesimplekid fixes](https://github.com/0xg4tt0/eTIMEbank/pull/1)
+- 12 Oct 2024 - 18:04 - drink beer
+
 
 # Archive of the original README.md from cdk fork
 
