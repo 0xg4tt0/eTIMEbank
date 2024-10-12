@@ -50,7 +50,6 @@ There has been a plethora of research and books that have been written on the co
 - [https://timebanking.org/howitworks/](https://timebanking.org/howitworks/)
 - [Video: Time Banking animation](https://www.youtube.com/watch?v=aB8ifVJ34JU)
 - [Numismatics wiki](https://en.wikipedia.org/wiki/Numismatics)
-- [Alternative currency wiki](https://en.wikipedia.org/wiki/Alternative_currency)
 
 **Examples of Time Banks**
 - [Custom GoogleMap with Pins for all Time Banking ommunities globally](https://www.google.com/maps/d/viewer?mid=1ZZRA7ombZ7CN_8u8gHIi0wRxq45FaFWs&ll=23.581971987838646%2C2.24820156946123&z=2)
@@ -123,31 +122,29 @@ From my brief research into current Time Banks there are 4 active communities th
 
 By remote or off-grid I am implying limited or no internet connectivity, potential for power brown/black-outs, locations not serviced by local ISP or cell providers, or simply communities that can not afford the fiat price for services such as starlink or even 4G data plans.
 
-communities that could benefit from the features of ecash within their economic model.
+This community ideally all live within a 15 km area and they meet in person, share resources, assist each other in times of need and have a set of shared values including the wish to not have a fiat/numismatic economy between members / being in a 'transactional relationship' 
 
-Ideal community for use-case: coordinated groups of 50 - 200 people living within a 15 km area that meet in person, share resources, assist each other in time of need and have a shared values including the wish to not have a fiat/numismatic economy between members.
+This community would have to seek social consensus on what the 'mint' is, how it is hosted, who has access to the mint, what the unit 'etime' is denominated in (minutes, hours, days), and how to resolve disputes and issues, 
 
-The community would have to seek social consensus on what the 'mint' is, what the unit 'etime' is denominated in (minutes, hours, days), how they would resolve disputes and issues, 
-
-In terms of technology stack, all the members of this community would have and know how to use a stock android smart phone, for the mint it could be a mesh network, a wifi router to a rasperbby pi, a bluetooth gossip protocol. Up to the community, they might have their own intranet or wish to implement a multi-mint model for their etime system where each client is also its own independent mint (more complication and out of scope here)
-
+In terms of technology stack, all the members of this community would have a stock android smart phone from 2010 onwards, this could also allow to setup a mesh network or bluetooth gossip protocol between the devices (out of scope here). For the mint it could be a laptop, modded wifi router, or a rasperbby pi with wifi hotspotting capabilities and an antenna, which would be ideally placed in or near the location where members meet regularly (asynchronous melting/etime updates). This is up to the community, their resources, setup and implementation wishes.
 
 #### Volunteer-run events 
 
 **number of members: 100 - 10k**
 
-
+`TO DO`
 
 #### Incentivising pro-social behaviour / public goods
 
 **disbursement of a pre-funded community treasury**
 
+`TO DO`
 
 #### Bitcoin Citadels / Journeyman model
 
 **Community PoW & incentivising journeyman services**
 
-
+`TO DO`
 
 Journeyman - Def
 
