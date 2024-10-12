@@ -4,11 +4,11 @@
 
 This is a **Proof of Concept** fork of the [Cashu Development Kit (cdk)](https://github.com/cashubtc/cdk) 
 
-Concept is the creation of a FOSS ecash based time-banking application that runs both the wallet client and mint logic for offline and offgrid communities.
+Concept is the creation of a ecash based time-banking application that runs both the wallet client and mint logic for offline and offgrid communities, volunteer management at events and other potential use cases.
 
 This project will be submitted to a [Bitcoin++ Hackathon](https://btcplusplus.dev/) but you are free to fork it and make it your own. PRs welcome.
 
-This project by design not include any Bitcoin elements and does not use satoshis as a unit, it is an exercise in applying a [Chaumian blinded signatures scheme](https://wikipedia.org/wiki/Blind_signature) to the concept of [Time Banking](https://en.wikipedia.org/wiki/Time_banking) 
+By design this project does not include any Bitcoin ,Lightning, or Nostr elements within its code and does not use satoshis as a unit within the mint, it is an exercise in applying a [Chaumian blinded signatures scheme](https://wikipedia.org/wiki/Blind_signature) to the concept of [Time Banking](https://en.wikipedia.org/wiki/Time_banking) 
 
 To know more about the design choices, what time banking is, and the reason why I made this project please refer to the [context.md document within this repository](https://github.com/0xg4tt0/eTIMEbank/blob/main/context.md)
 
@@ -28,15 +28,22 @@ To know more about the design choices, what time banking is, and the reason why 
 - [x] remove Bitcoin logic:
 - [x] LN invoice logic
 - [x] nostr logic
-- [x] removed alternative database options (chose redb)
-- [ ] replace 'sat' with 'time'
-  - [ ] define 'time'
-  - [ ] integrate logic to check real time and 'ecash 'time'
-  - [ ] melt & mint logic remains the same
-  - [ ] ...
+- [x] removed alternative database options (chose redb as local.storage / database)
+- [ ] customise 'fake-wallet' into 'etime-wallet'
+- [ ] replace 'sats' with 'time'
+  - [ ] define 'time' (unix_time)
+  - [ ] create code for timer output to mint quote
+  - [ ] generates 'etime' from mint quote (melt)
+  - [ ] reciever claims 'etime'
+  - [ ] test code additions
+- [ ] cdk-mintd customisation
+  - [ ] Mint has limited supply with only faucet wallet can call mint function
+  - [ ] disable minting unless you are the faucet wallet
+  - [ ] the mint can only do swaps of aready minted enotes
+  - [ ] copy etime-wallet and make faucet-wallet with mint logic
 - [ ] testing
 - [ ] deploy on 2 devices
-- [ ] test sharing 'time'
+- [ ] test sharing 'time' between 2 devices
 - [ ] 
 - [ ] 
 - [ ] slap together some slides
@@ -69,6 +76,9 @@ To know more about the design choices, what time banking is, and the reason why 
 
 *meow*
 *meow*
+- QR for mint invite with associated metadata for who invited them to mint / access-control
+- Extra step: giver of etime submits quote to mint, presents etime to reciever, receiver claims etime. (ore code needed)
+- 
 - multi-mint or federated setup of mints within wallet client (Fedi example)
 - LoRA / mesh network / bluetooth connectivity protocol for clients (offline)
 - APK build
