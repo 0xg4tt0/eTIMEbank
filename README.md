@@ -103,7 +103,7 @@ Timezone: GMT+2
 - 12 Oct 2024 - 17:54 - the rust code compiled without errors!
 - 12 Oct 2024 - 18:03 - [merged thesimplekid fixes](https://github.com/0xg4tt0/eTIMEbank/pull/1)
 - 12 Oct 2024 - 18:04 - drink beer
-
+- 12 Oct 2024 - 20:20 - [refined context.md and roadmapped next steps on readme.md](https://github.com/0xg4tt0/eTIMEbank/commit/b8eea10f25359118aacffdc7e316bf2dc85902cd)
 
 # Archive of the original README.md from cdk fork
 
