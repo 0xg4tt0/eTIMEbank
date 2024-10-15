@@ -2,15 +2,14 @@
 
 ` work in progress `
 
-This is a **Proof of Concept** fork of the [Cashu Development Kit (cdk)](https://github.com/cashubtc/cdk) 
+This is a **Proof of Concept** fork of the [Cashu Development Kit (cdk)](https://github.com/cashubtc/cdk) to create a novel time-banking application that runs both the wallet client and mint logic for offline and offgrid communities, volunteer management at events and other potential use cases.
 
-Concept is the creation of a ecash based time-banking application that runs both the wallet client and mint logic for offline and offgrid communities, volunteer management at events and other potential use cases.
+This project was be submitted to a [Bitcoin++ Hackathon](https://btcplusplus.dev/) you are free to fork it and make it your own. PRs welcome.
 
-This project will be submitted to a [Bitcoin++ Hackathon](https://btcplusplus.dev/) but you are free to fork it and make it your own. PRs welcome.
+By design this project does not include any Bitcoin ,Lightning, or Nostr elements within its code and does not use satoshis as a unit within the mint, it is an exercise in applying a [Chaumian blinded signatures scheme](https://wikipedia.org/wiki/Blind_signature) to the concept of [Time Banking](https://en.wikipedia.org/wiki/Time_banking). 
 
-By design this project does not include any Bitcoin ,Lightning, or Nostr elements within its code and does not use satoshis as a unit within the mint, it is an exercise in applying a [Chaumian blinded signatures scheme](https://wikipedia.org/wiki/Blind_signature) to the concept of [Time Banking](https://en.wikipedia.org/wiki/Time_banking) 
+### To know more about the design choices, what time banking is, and the reason why I made this project please refer to the [context.md document within this repository](https://github.com/0xg4tt0/eTIMEbank/blob/main/context.md)
 
-To know more about the design choices, what time banking is, and the reason why I made this project please refer to the [context.md document within this repository](https://github.com/0xg4tt0/eTIMEbank/blob/main/context.md)
 
 ## TO DO
 
