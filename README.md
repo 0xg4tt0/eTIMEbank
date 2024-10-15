@@ -44,11 +44,7 @@ To know more about the design choices, what time banking is, and the reason why 
 - [ ] testing
 - [ ] deploy on 2 devices
 - [ ] test sharing 'time' between 2 devices
-- [ ] 
-- [ ] 
-- [ ] slap together some slides
-- [ ] drink milk
-- [ ] profit ?
+- [ ] release
 
 
 ## Design choices for project
@@ -74,15 +70,13 @@ To know more about the design choices, what time banking is, and the reason why 
 
 ## Feature Request / Future
 
-*meow*
-*meow*
 - QR for mint invite with associated metadata for who invited them to mint / access-control
-- Extra step: giver of etime submits quote to mint, presents etime to reciever, receiver claims etime. (ore code needed)
-- 
+- Extra step: giver of etime submits quote to mint, presents etime to reciever, receiver claims etime. (more code needed)
+- Setup wizard process for mint operators to select the appropriate setup for their community
 - multi-mint or federated setup of mints within wallet client (Fedi example)
 - LoRA / mesh network / bluetooth connectivity protocol for clients (offline)
 - APK build
-- reproducible build
+- reproducible build testing
 - Translate into multiple languages (not just European ones)
 
 ## How to deploy / build
